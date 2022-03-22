@@ -5,4 +5,5 @@ const Contenedor = require('./contenedor.js');
 const { title } = require('process');
 
 const Contenedor1 = new Contenedor 
-Contenedor1.save(producto = 'shampoo solido para pelo equilibrado', 340, 'https://d3ugyf2ht6aenh.cloudfront.net/stores/001/347/195/products/161-abbd9d5bdc0037c14116353858965755-640-0.png')
+//Contenedor1.save(producto = {title: 'shampoo solido para pelo equilibrado', price: 340, thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/001/347/195/products/161-abbd9d5bdc0037c14116353858965755-640-0.png', id: ''} )
+Contenedor1.deleteAll()

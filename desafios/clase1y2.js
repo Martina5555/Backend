@@ -2,8 +2,6 @@
 //1 cuando llamas a la variable del constructor dentro de su clase se llama con this.
 //2 usar return cuando quiero un resultado de la funcion y no console.log para poder guardar los resultados en variables
 
-console.log('llega') //no llega a la consola del navegador
-
 class Usuario {
   constructor(nombre, apellido, libros, mascotas) {
       this.nombre = nombre
